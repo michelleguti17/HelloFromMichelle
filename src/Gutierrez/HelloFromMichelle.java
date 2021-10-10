@@ -9,7 +9,7 @@ public class HelloFromMichelle {
         Hello hello = new Hello();
         hello.sayHello( "Francisco");
         hello.sayHello( "Michelle");
-        hello.sayHello("Sanele);
+        hello.sayHello("Sanele");
 
     }
 }
