@@ -1,10 +1,15 @@
 package Gutierrez;
 
-public class HelloFromMichelle {
-    public static void  main (String args[]){
 
-        System.out.println("Hello, my name is Michelle");
-        System.out.println("Hello Michelle, my name is Sanele");
-        System.out.println("Hello Michelle, my name is Helaman");
+public class HelloFromMichelle {
+    public void sayHello(String name){
+        System.out.println("Hello, my name is " + name + "!");
+    }
+    public static void main(String[] args){
+        Hello hello = new Hello();
+        hello.sayHello( "Francisco");
+        hello.sayHello( "Michelle");
+        hello.sayHello("Sanele);
+
     }
 }
