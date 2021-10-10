@@ -5,5 +5,6 @@ public class HelloFromMichelle {
 
         System.out.println("Hello, my name is Michelle");
         System.out.println("Hello Michelle, my name is Sanele");
+        System.out.println("Hello Michelle, my name is Helaman");
     }
 }
